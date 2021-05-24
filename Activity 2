@@ -1,3 +1,5 @@
+Print ( "star program" )
+
 Bank_account = 1500
 Product = int ( input ( "what is the cost of the product?" ))
 
