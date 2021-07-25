@@ -1,0 +1,13 @@
+¿Eres un adulto mayor o eres joven? 
+#include<tiostream>
+utilizando el espacio de nombres std;
+main(){
+int edad; 
+cout<<put su edad, por favor; cin>>age
+if(edad>=18)
+cout<<"bienvenido, es bueno verte";
+{
+else if(edad<18){
+cout<< "lo sentimos, no podemos dejarte entrar";
+}
+}

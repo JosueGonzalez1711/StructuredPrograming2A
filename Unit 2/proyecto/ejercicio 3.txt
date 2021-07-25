@@ -1,0 +1,24 @@
+clase GFG{
+     
+ Función de resultado con N
+    static void result(int N)
+    {    
+ iterar de 0 a N
+        for (int num = 0; num < N; num++)
+        {    
+ Se utiliza el operador de cortocircuito
+            if (num % 3 == 0 && num % 5 == 0)
+                System.out.print(num + " ");
+        }
+    }
+      
+ Código del controlador
+    public static void main(String []args)
+    {
+ la entrada va aquí
+        int N = 100;
+          
+ Función de llamada
+        result(N);
+    }
+}

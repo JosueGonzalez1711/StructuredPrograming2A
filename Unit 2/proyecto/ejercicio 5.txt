@@ -1,0 +1,12 @@
+Importar sys
+
+frase=Ninguna
+inv=Ninguno
+
+if __name__ == "__main__":
+ print("Invertir una cadena\n")
+ print("Escriba una frase: ")
+ frase=entrada()
+    inv=' '.join(reversed(phrase.split()))
+
+ print("\nSecreción inversa: ", inv)
