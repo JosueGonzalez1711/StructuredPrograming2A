@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main() {
+  int i;
+Esta es una sucesión
+entre la lista de números hay un espacio de 4 números
+ para (i = 2; i < 6; ++i)
+  {
+    printf("%d ", i);
+  }
+ para (i = 3; i < 7; ++i)
+  {
+    printf("%d ", i);
+  }
+ para (i = 4; i < 8; ++i)
+  {
+    printf("%d ", i);
+  }
+ para (i = 5; i < 9; ++i)
+  {
+    printf("%d ", i);
+  }
+ devolver 0;
+}

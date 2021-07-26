@@ -1,0 +1,29 @@
+Importar sys
+
+def CallingMont():
+ para el mes en el rango (1,13):
+ print(f"Mes:{mes}")
+ si mes == 2 :
+ para el día en el rango (1,29):
+ print (f" Día:{día}")
+ elif mes == 4:
+ para el día en el rango (1,31):
+ print (f" Día:{día}")
+ elif mes == 11:
+ para el día en el rango (1,31):
+ print (f" Día:{día}")
+ elif mes == 9:
+ para el día en el rango (1,31):
+ print (f" Día:{día}")
+ elif mes == 6:
+ para el día en el rango (1,31):
+ print (f" Día:{día}") 
+ más: 
+ para el día en el rango (1,32):
+ print (f" Día:{día}")
+ devolver 0
+
+if __name__ == "__main__":
+    print("inicilizating\n")
+ print("esperar...\n")
+    CallingMont()
